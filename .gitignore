@@ -16,7 +16,6 @@ pids
 
 # Dist
 dist/
-build/
 
 # Miscellaneous
 .tmp/
