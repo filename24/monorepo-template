@@ -70,12 +70,12 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
       {
         type: 'add',
         path: '{{type}}/{{folderName}}/package.json',
-        templateFile: 'templates/package.json.hbs',
+        templateFile: 'templates/package.json',
       },
       {
         type: 'add',
-        path: '{{type}}/{{folderName}}/template.eslintrc.json',
-        templateFile: 'templates/eslintrc.json',
+        path: '{{type}}/{{folderName}}/.eslintrc.json',
+        templateFile: 'templates/template.eslintrc.json',
       },
       {
         type: 'add',
