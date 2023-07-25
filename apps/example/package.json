@@ -1,12 +1,12 @@
 {
   "name": "example",
-  "packageManager": "yarn@3.2.1",
   "scripts": {
     "build": "tsup",
     "lint": "prettier --check . && eslint src --ext .mjs,.js,.ts",
     "format": "prettier --write . && eslint src --ext .mjs,.js,.ts --fix"
   },
   "devDependencies": {
-    "typescript": "^4.9.5"
+    "eslint-config-custom": "workspace:^",
+    "typescript": "^5.1.6"
   }
 }

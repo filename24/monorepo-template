@@ -1,5 +1,5 @@
 const main = () => {
-  console.log('Hello World');
-};
+  console.log('Hello World')
+}
 
-export default main;
+export default main
