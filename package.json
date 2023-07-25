@@ -8,32 +8,26 @@
     "format": "turbo run format",
     "dev": "turbo run dev",
     "postinstall": "is-ci || husky install",
-    "update": "yarn upgrade-interactive"
+    "update": "yarn upgrade-interactive",
+    "generate": "turbo gen"
   },
-  "packageManager": "yarn@3.3.1",
+  "packageManager": "yarn@3.6.1",
   "devDependencies": {
-    "@commitlint/cli": "^17.4.0",
-    "@commitlint/config-angular": "^17.4.0",
-    "@commitlint/config-conventional": "^17.4.0",
-    "@types/node": "^18.11.18",
-    "@typescript-eslint/eslint-plugin": "^5.52.0",
-    "@typescript-eslint/parser": "^5.52.0",
-    "eslint": "^8.34.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.3",
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-angular": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "@turbo/gen": "^1.10.11",
+    "@types/node": "^18.17.0",
+    "husky": "^8.0.0",
     "is-ci": "^3.0.1",
-    "prettier": "^2.8.4",
-    "tsup": "^6.6.3",
-    "turbo": "^1.8.1",
-    "typescript": "^4.9.5"
+    "lint-staged": "^13.2.3",
+    "tsup": "^7.1.0",
+    "turbo": "^1.10.11",
+    "typescript": "^5.1.6"
   },
   "workspaces": [
     "apps/**",
     "packages/**"
   ],
-  "lint-staged": {
-    "{apps,packages}/**/*.ts": "eslint --fix --ext ts"
-  },
   "private": true
 }
