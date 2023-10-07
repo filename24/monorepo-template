@@ -1,8 +1,4 @@
 {
   "editor.tabSize": 2,
-  "files.eol": "\n",
-  "npm.packageManager": "yarn",
-  "search.exclude": {
-    "**/.yarn": true
-  }
+  "files.eol": "\n"
 }
