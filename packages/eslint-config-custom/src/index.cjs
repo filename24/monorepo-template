@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 /**
- * @typedef {import('eslint').ESLint}
+ * @typedef {import('eslint').ESLint.ConfigData}
  */
 module.exports = {
   extends: [

@@ -7,6 +7,6 @@
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:^",
-    "typescript": "^5.1.6"
+    "typescript": "^5.3.3"
   }
 }

@@ -11,23 +11,26 @@
     "update": "yarn upgrade-interactive",
     "generate": "turbo gen"
   },
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@4.0.2",
   "devDependencies": {
-    "@commitlint/cli": "^17.6.7",
-    "@commitlint/config-angular": "^17.6.7",
-    "@commitlint/config-conventional": "^17.6.7",
-    "@turbo/gen": "^1.10.11",
-    "@types/node": "^18.17.0",
-    "husky": "^8.0.0",
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-angular": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
+    "@turbo/gen": "^1.11.3",
+    "@types/node": "^18.19.8",
+    "husky": "^8.0.3",
     "is-ci": "^3.0.1",
-    "lint-staged": "^13.2.3",
-    "tsup": "^7.1.0",
-    "turbo": "^1.10.11",
-    "typescript": "^5.1.6"
+    "lint-staged": "^15.2.0",
+    "tsup": "^8",
+    "turbo": "^1.11.3",
+    "typescript": "^5.3.3"
   },
   "workspaces": [
     "apps/**",
     "packages/**"
   ],
+  "engines": {
+    "node": ">=18"
+  },
   "private": true
 }

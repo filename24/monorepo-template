@@ -20,7 +20,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "tsup": "^7.1.0"
+    "tsup": "^8"
   },
   "engines": {
     "node": ">=18"
