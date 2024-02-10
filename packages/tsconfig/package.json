@@ -3,6 +3,6 @@
   "version": "0.0.1",
   "description": "",
   "engines": {
-    "node": ">=16.9.0"
+    "node": ">=18"
   }
 }
